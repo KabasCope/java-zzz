@@ -22,9 +22,14 @@ public class JavaApplication1 {
         
         System.out.println("El resultado es: " + Resultado);
         
-
-        
+                if (N1 < N2 ) {    //Si el numero 1 es menor que N2
+            System.out.println("El numero mayor es " + N2);
+            
+        }else if (N1 > N2){ // por otro lado si es N1 mayor a N2
+            System.out.println("El numero mayor es " + N1);
+            
+        }else if (N1 == N2){ //si ambos numeros son iguales
+            System.out.println("Ambos numeros son iguales");
+        }
     }
-    
 }
-
