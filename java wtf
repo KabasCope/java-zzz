@@ -1,0 +1,30 @@
+package javaapplication1;
+
+import java.util.Scanner;
+
+public class JavaApplication1 {
+
+
+    public static void main(String[] args) {
+        
+        
+        Scanner Lectura = new Scanner (System.in);
+        
+        System.out.println("Ingrese un valor: ");
+        
+        int N1 = Lectura.nextInt();
+        
+        System.out.println("Ingrese el segundo valor; ");
+        
+        int N2 = Lectura.nextInt();
+        
+        int Resultado = N1  * N2;
+        
+        System.out.println("El resultado es: " + Resultado);
+        
+
+        
+    }
+    
+}
+
