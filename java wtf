@@ -1,3 +1,5 @@
+// and, or, not son operadores que sirven para el if
+
 package javaapplication1;
 
 import java.util.Scanner;
